@@ -172,7 +172,7 @@ window.onload = async () => {
     await regIntro();
 
     for (let i = 0; i < introArr.length; i++) {
-        setTimeout(() => introAnimation(i), (4000 * i));
+        setTimeout(() => introAnimation(i), (5000 * i));
     }
 }
 
